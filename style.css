@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background-color: #edf2f8;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    height: 220px;
+    width:38em;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.container .drawers {
+    background-size: cover;
+    height: 13.7em;
+    width: 14em;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.container .content {
+    font-size: 21px;
+    font-weight: 300;
+    position: absolute;
+    top: 14px;
+    left: 12em;
+}
+.container .paragraph {
+    font-weight: 400;
+    color: rgba(0, 0,0, 0.5);
+    font-size: 13px;
+    position: absolute;
+    top: 8em;
+    left: 19.5em;
+}
+.container   .profile-img {
+    position: absolute;
+    top: 10.5em;
+    left: 16em;
+    background-size: cover;
+    height:2.2em;
+    border-radius: 50%;
+}
+.container .profile-name {
+    position: absolute;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 300;
+    top: 12.5em;
+    left: 22em;
+}
+.container .profile-date {
+    position: absolute;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    top:16.5em;
+    left: 25.7em;
+}
+.container .share-icon {
+    position: absolute;
+    top: 11.5em;
+    right: 2em;
+    background-color:#d3dde9 ;
+    border-radius: 14px;
+}
+.container #social-icons {
+    height: 55px;
+    background-color: #49556b;
+    position: absolute;
+    top: 5em;
+    right: -5em;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+.container #social-icons span {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-left: 20px;
+    
+}
+.container .icons {
+   margin-left: 15px;
+    margin-top: 15px;
+}
+.arrow {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    background-color: #6d8097;
+    top:10.9em ;
+    right: 1.5em;
+    border-radius: 15px;
+
+
+}
+
+
+#arrow-down {
+    position: absolute;
+    top: 8.4em;
+    right: 1em;
+    display: none;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #49556b;
+  }
