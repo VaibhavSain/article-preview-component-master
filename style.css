@@ -80,6 +80,7 @@ body {
     width: 250px;
     cursor: pointer;
     border-radius: 15px;
+    display:none;
     
 }
 .container #social-icons span {
